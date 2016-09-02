@@ -1,9 +1,16 @@
 # IdentifyIDcard
 IdentifyIDcard
-這是一個用來辨識中華民國身分證的專案
-(需配合opencv2.4與tessract OCR)
----------------20160218------------------------------
-1.定義圖片中最小長方形為國旗，找到國旗後擺正身分證
-2.做文字區域的偵測，框出所有文字後，取得右下角的身分證字號
-3.切割英文字與數字降低誤差
-4.轉為字串輸出
+This is used to identify a ROC ID card project
+(In conjunction with opencv2.4 tessract OCR)
+
+--------------- 20,160,218 ------------------------------
+
+1. Define the picture smallest rectangle as the national flag,
+the national flag after correcting identity card found.
+
+2. do detect text area, 
+block out all the words after the lower right corner to obtain Social Security numbers.
+
+3. Cutting English words to reduce numbers  error.
+
+4. string output.
